@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Dom</title>
+    <link rel='stylesheet' type='text/css' href='handling.css'> <!--this is for linking css file-->
+    <script src='main.js'defer></script>   <!--this is for linking java script  file-->
+</head>
+
+
+<body>
+    <div class="frame"><!--frame -->
+
+      <h1>JavaScript Dom</h1>
+                <form action="form.php" method="post">
+                    <div class="framespace">
+                        <div class="form-group">
+                            <label for="name">Enter Student Name:</label>
+                            <input type="text" name="fname" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Enter Student Age:</label>
+                            <input type="number" name="age" id="age" placeholder="Enter the age">
+                        </div>
+                    </div>
+                    <button type="button" id="addBtn">ADD</button>
+
+                
+       </form>
+       <table id="studentTable" >
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+
+    </div><!--this is endfor the frame -->
+</body>
+</html> 
